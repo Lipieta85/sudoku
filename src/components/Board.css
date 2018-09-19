@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 450px;
+  justify-content: center;
+}
+
+span {
+  min-height: 44px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF0000;
+  font-weight: bold;
+  background-color: LightCyan;
+}
+
+input {
+  min-height: 44px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  color: #FF0000;
+  font-weight: bold;
+  border: none;
+  padding-left: 12px;
+  text-align: center;
+}
